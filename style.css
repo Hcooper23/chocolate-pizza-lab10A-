@@ -1,0 +1,64 @@
+.title-logo {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5em;
+    margin-top: 5%;
+}
+
+.deck.separator-top {
+    background-image:url('img/hr-img.png');
+    background-repeat: repeat-x;
+    height: 45px;
+    border: 2px solid red;
+}
+.nav-box {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .25px;
+    flex-direction: nav-box;
+    ;
+}
+
+#icon {
+    display:flex;
+    border: 2px solid green;
+}
+
+#icon img {
+width: 45px;
+height:45px;
+margin-top: 20px;;
+}
+.best-food {
+    background-image:url('img/best-food.png');
+    font-size: 10px;
+}
+
+.rss {
+    padding-left: 8px;
+}
+
+body {
+     padding: 200px;
+     
+}
+.choc-pizza {
+    font-family: 'Oswald', sans-serif;
+    font-size:45px
+}
+
+.print-button {
+    justify-content: right;
+}
+
+.desserts {
+    font-family: 'Oswald', sans-serif; 
+    font-color: rgb(234, 234, 227);
+
+}
+
+#choc-pic {
+    width: 770px;
+    height: 770px;
+}
