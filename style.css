@@ -1,34 +1,34 @@
 .title-logo {
     font-family: 'Yellowtail', cursive;
     font-size: 2.5em;
-    margin-top: 5%;
+    ;
 }
 
 .deck.separator-top {
     background-image:url('img/hr-img.png');
     background-repeat: repeat-x;
-    height: 45px;
-    border: 2px solid red;
+    height: 40px;
+    padding: 5px
 }
 .nav-box {
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: .25px;
     flex-direction: nav-box;
-    ;
+    height: 110px;
+
 }
+
 
 #icon {
     display:flex;
-    border: 2px solid green;
+    align-items: center;
 }
 
 #icon img {
 width: 45px;
 height:45px;
-margin-top: 20px;;
 }
 .best-food {
     background-image:url('img/best-food.png');
@@ -40,7 +40,8 @@ margin-top: 20px;;
 }
 
 body {
-     padding: 200px;
+     width: 900px;
+     margin: auto;
      
 }
 .choc-pizza {
@@ -49,7 +50,8 @@ body {
 }
 
 .print-button {
-    justify-content: right;
+    text-align: right; clear: left;
+    background-color: transparent;
 }
 
 .desserts {
@@ -58,7 +60,94 @@ body {
 
 }
 
-#choc-pic {
-    width: 770px;
-    height: 770px;
+#chocloate-pizza {
+    width: 100%;;
+}
+
+header {
+    height: 110px
+}
+
+.recipeBreakdown {
+    background-image: url(img/list-bg.png);
+    display: flex;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+
+}
+
+
+.leftsideing {
+    padding:50px
+    
+}
+
+.rightsideing {
+    padding:50px;
+}
+
+.sugar {
+    text-decoration: line-through;
+}
+
+.egg {
+    text-decoration: line-through;
+}
+
+.instructions {
+    font-family: 'ABeeZee', sans-serif;  
+}
+
+.one {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.two {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.three {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.vanessa {
+    display:flex;
+    flex-direction: column;
+    margin-right: 10px;
+    justify-content:space-around
+}
+
+.footerbio {
+    display:flex  
+}
+footer article h {
+    font-size: 26px;
+    align-items:left;
+    font-weight: 700;
+}
+
+footer article p {
+    font-size: 24px;
+}
+
+.button {
+background-color:rgb(209, 77, 29);
+width: 195px;
+height:55px;
+}
+
+.trademark {
+    text-align: center;
+}
+
+.smalllogo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    padding-bottom: 15px;
+    padding-top: 75px;
 }
